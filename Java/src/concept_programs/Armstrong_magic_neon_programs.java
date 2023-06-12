@@ -70,8 +70,8 @@ public class Armstrong_magic_neon_programs {
 		///////////////////////////////////////////////////////////////////////////////////////
 
 		        
-		                                // This method is for to find a Neon number
-		                                // Spilt the digit | Square the each digit
+		                                // This method is for to find a Ne_on number
+		                                // Square the given number | Spilt the digit | Square the each digit
 		                                // Sum of square the each digit = Given number is NEON
 		                                public void neon_num(int num1)
 		                                {
