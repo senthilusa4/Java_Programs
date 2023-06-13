@@ -13,6 +13,17 @@ public class Times_of_element_presence {
 	        	       obj.presence();             
 	}
 	
+			//   This method is for In a array present of duplicate element count
+	
+			//   First checking the each element
+	
+	       /*       
+	        * 	###   That element is repeated means count that element how many time's present in the array
+	        * 
+	        * 	###   That element is repeated means once its count that element value should change so that only that element will not check again
+	        * 	
+	        *   ###   and should write the condition change element value will not count again 
+	        */
 			public void presence()
 			{
 				int c[] = Static.a;
@@ -33,13 +44,15 @@ public class Times_of_element_presence {
 								if((c[i]!=value)&&(c[i]==c[j]))
 								{
 									count++;
-									c[i]=value;
+									c[j]=value;
 								}
 							}
-							System.out.println(c[i] + " Present " + count + " times");
-						}
-				
-						
+							
+							if(c[i]!= value && count!=1)
+							{
+							     System.out.println(c[i] + " Present " + count + " times");
+						    }
+						}	
 			}
 
 }
