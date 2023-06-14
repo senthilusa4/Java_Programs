@@ -12,7 +12,7 @@ public class Binary_search {
 	 * 		   ### Before Search a element should sort in the array | ascending order
 	 * 		     
 	 * 		  STEP_1 - Checking find element is equal to the mid value means 
-	 *                 | Number is finded |
+	 *                 | Number is find_ed |
 	 * 
 	 * 		  STEP_2 - Checking find element is greater_than the mid value
 	 *                 min value should change to mid_value +1
@@ -25,7 +25,8 @@ public class Binary_search {
 	{
 		Binary_search obj = new Binary_search();
 		int ascending[] = obj.ascending_order();
-		                  obj.search(ascending);
+		              //    obj.search(ascending);
+		               obj.search1(ascending);
 	}
 	
 	public int[] ascending_order()
@@ -64,11 +65,12 @@ public class Binary_search {
 					int min = 0;
 					int max = a.length-1;
 					
+                    int mid =  (min+max)/2;
+					
 					boolean flag = false;
 					for(int i=min;i<=max;)
 					{
-	
-						int mid =(min + max) /2;
+						mid =(min + max) /2;
 						
 						if(a[mid]==find)
 						{
@@ -92,12 +94,63 @@ public class Binary_search {
 								// Checking the searching element is present in the array or not
 								if(flag==true)
 								{
-									System.out.println(find + " is present in the array");
+									System.out.println(find + " is present " + mid + " -index in a array");
 								}
 								else
 								{
 									System.out.println(find + " is not present in the array");
 								}
+				}
+				
+		/////////////////////////////////////////////////////////////////////////////////////////////		
+				
+				// This method is for using while loop search a number (BINARY SEARCH) 		
+				public void search1(int[] a)
+				{
+					System.out.println();
+					Scanner sc = new Scanner(System.in);
+					System.out.println("Enter searching element ");
+					int find = sc.nextInt();
+					
+					int min = 0;
+					int max = a.length-1;
+
+					int mid = (min + max) /2;
+					
+					int count = 0;
+					while(true)
+					{
+						mid = (min + max) /2;
+						if(a[mid]==find)
+						{
+							count++;
+							break;
+						}
+						if(min==max)
+						{
+							break;
+						}
+						
+							if(a[mid]<find) // FIND above the mid value means
+							{
+								min = mid +1;
+							}
+							
+								if(a[mid]>find)  // FIND below the mid value means
+								{
+									max = mid -1;
+								}
+					}
+					
+					// Checking the searching element is present in the array or not
+					if(count>0)
+					{
+						System.out.println(find + " is present in "+ mid + " a array");
+					}
+					else
+					{
+						System.out.println(find + " is not present in the array");
+					}
 				}
 
 }

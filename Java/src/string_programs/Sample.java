@@ -16,6 +16,11 @@ public class Sample {
 		String ss = " apple ";
 		char a[] = {'a','b'};
 		
+		int b = 10;
+		char c = 'a';
+		boolean f = false;
+		
+		
 		System.out.println("compareTo method");
 		System.out.println();
 		System.out.println(s1.compareTo(s2));
@@ -32,10 +37,12 @@ public class Sample {
 		System.out.println(s1.endsWith(s2)); 
 		System.out.println(s1.endsWith(s5));
 	
+		// checking the the string start_with that string or not
 		System.out.println("--startsWith() method--");
 		System.out.println();
 		System.out.println(s1.startsWith(s2)); // T
-		System.out.println(s1.startsWith(s9, 0));
+		// s1 offset 6 is w | so s5 is start with the index or not                
+		System.out.println(s1.startsWith(s5, 6));
 		
 		
 		System.out.println("--indexOf() method--");
@@ -59,11 +66,15 @@ public class Sample {
 		System.out.println("--strip()--");
 		System.out.println(ss.strip());
 		
+		/////////////////////////////////////////////////////////////////////////////////
 		
+		// replace means this string replace to that
+		// In that string hello string replaced to qqq
 		System.out.println("--replace--");
 		System.out.println(s1.replace("hello", "qqq"));
 		System.out.println(s1.replace('l', 'd'));
 		
+		//  char array change to array
 		System.out.println();
 		System.out.println("--copyValueOf()");
 		System.out.println(s2.copyValueOf(a));
@@ -72,14 +83,31 @@ public class Sample {
 		System.out.println("--codePointCount()");
 		System.out.println(s1.codePointCount(0, 11));
 		
+		// This string contain that string or not
 		System.out.println();
 		System.out.println("--contains()--");
 		System.out.println(s1.contains("h"));  // T
 		System.out.println(s1.contains(s5));   // F
-				
+	
+		// check this string content equal to the that string 
 		System.out.println();
 		System.out.println("--contentEquals()--");
 		System.out.println(s1.contentEquals(s5));  // 
+		
+		
+		// converting other data-type to string
+		// input = primitive dt   return = string
+		System.out.println();
+		System.out.println("--valueOf()");
+		System.out.println(s1.valueOf(b));
+		
+		// string convert to integer
+		// Integer.parseInt
+		
+		// string convert to double
+		// Double.parseDouble
+				
+		
 		
 	}
 	
