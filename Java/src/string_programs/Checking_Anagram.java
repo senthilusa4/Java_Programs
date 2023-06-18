@@ -10,8 +10,8 @@ public class Checking_Anagram {
 	
 	public void check_anagram()
 	{
-		String s1 = "care";
-		String s2 = "race";
+		String s1 = "aas";
+		String s2 = "asw";
 		
 		char c1[] = s1.toCharArray();
 		char c2[] = s2.toCharArray();
@@ -31,11 +31,12 @@ public class Checking_Anagram {
 					{
 						c2[j]=z;
 						count++;
+						break;
 					}
 				}	
 			}
 			
-			if(given+1 == count)
+			if(s1.length() == count)
 			{
 				System.out.println(s2 + " is ANAGRAM");
 			}

@@ -59,6 +59,8 @@ public class Count_char_present {
 		System.out.println("Enter the searching charactor");
 		char c = sc.next().charAt(0);
 		
+		sc.close();
+		
 		Count_char_present s = new Count_char_present(n);
 		int answer = s.char_count(n,c);
 		System.out.println(answer);

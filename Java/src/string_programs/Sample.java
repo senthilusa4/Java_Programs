@@ -20,7 +20,10 @@ public class Sample {
 		char c = 'a';
 		boolean f = false;
 		
-		
+		// Input-string  |  Return type- int
+		// a-ascii value 65  b-ascii value 66
+		// a compareTo b means output is -1
+		// b comapreTo a means output is  1
 		System.out.println("compareTo method");
 		System.out.println();
 		System.out.println(s1.compareTo(s2));
@@ -74,7 +77,8 @@ public class Sample {
 		System.out.println(s1.replace("hello", "qqq"));
 		System.out.println(s1.replace('l', 'd'));
 		
-		//  char array change to array
+		//  char array change to string
+		// input = 'char[]'  return= string
 		System.out.println();
 		System.out.println("--copyValueOf()");
 		System.out.println(s2.copyValueOf(a));
@@ -101,11 +105,18 @@ public class Sample {
 		System.out.println("--valueOf()");
 		System.out.println(s1.valueOf(b));
 		
+		
+		System.out.println();
+		System.out.println("--split()--");
+		String ab[]=s1.split(" ");
+		
 		// string convert to integer
 		// Integer.parseInt
 		
 		// string convert to double
 		// Double.parseDouble
+		
+		// Arrays.sort(s);   input-array | return=void
 				
 		
 		
