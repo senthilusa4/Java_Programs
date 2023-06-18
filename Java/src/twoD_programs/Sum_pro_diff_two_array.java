@@ -35,6 +35,9 @@ public class Sum_pro_diff_two_array {
 			{
 				a[i][j]=sc.nextInt();
 			}
+			
+		//	sc.close();
+			
 			System.out.println();
 		}
 	return a;	
@@ -59,6 +62,8 @@ public class Sum_pro_diff_two_array {
 							a[i][j]=sc.nextInt();
 						}
 						System.out.println();
+						
+						// sc.close();
 					}
 				return a;	
 				}

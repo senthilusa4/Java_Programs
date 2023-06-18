@@ -18,6 +18,7 @@ public class Age_casestudy {
 		System.out.println("Enter the length or size of giving person's age");
 		int num_person = sc.nextInt();
 		
+		
 		int a[] = new int[num_person];  // Array object creation & DEFINE array length
 		
 		    // Number of Persons AGE get the in runtime
@@ -26,6 +27,8 @@ public class Age_casestudy {
 			{
 				a[i] = sc.nextInt();
 			}
+			
+			sc.close();
 			
 			    // Display user giving input age 
 				System.out.println("Display the user giving age respectively ");

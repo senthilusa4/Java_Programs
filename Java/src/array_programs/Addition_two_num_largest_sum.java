@@ -29,6 +29,8 @@ public class Addition_two_num_largest_sum {
 			a[i] = sc.nextInt();
 		}
 		
+		sc.close();
+		
 		        // Add first two value and set its max
 		        // Then using Loop to add next two value's and it's goes to till end
 		        // Checking (IF-condition) to first max is greater or second max is greater

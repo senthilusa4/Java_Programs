@@ -62,6 +62,8 @@ public class Binary_search {
 					System.out.println("Enter searching element ");
 					int find = sc.nextInt();
 					
+					sc.close();
+					
 					int min = 0;
 					int max = a.length-1;
 					
@@ -111,6 +113,8 @@ public class Binary_search {
 					Scanner sc = new Scanner(System.in);
 					System.out.println("Enter searching element ");
 					int find = sc.nextInt();
+					
+					sc.close();
 					
 					int min = 0;
 					int max = a.length-1;

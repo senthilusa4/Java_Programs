@@ -31,6 +31,7 @@ public class Check_Subset {
 					b[i] = sc.nextInt();
 				}
 				
+				sc.close();
 				
 						// LOGIC for checking subset or not
 				        // Checking Second_array elements to first_array elements

@@ -11,6 +11,8 @@ public class Arithmatic {
 		System.out.println("Enter the A value"); 
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		
+		sc.close();
 			
 		int ans = obj.mul(a, b);
 		System.out.println(ans);

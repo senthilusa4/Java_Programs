@@ -33,6 +33,8 @@ public class Eb_calculator {
 		System.out.print("Enter EB-UNIT - ");
 		double unit = sc.nextDouble();
 		
+		sc.close();
+		
 		obj.calc(unit);   // Calling the method while input giving RUNTIME
 		
 		

@@ -28,6 +28,8 @@ public class Add_element {
 		System.out.println("Please enter which index place will to be occupy");
 		int index = sc.nextInt();
 		
+		sc.close();
+		
 		int b[] = Static.a;
 		int n = b.length+1;
 		

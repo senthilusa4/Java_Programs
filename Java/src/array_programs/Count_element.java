@@ -35,6 +35,8 @@ public class Count_element {
 	 	int given = sc.nextInt();
 	 	System.out.println("Search element is " + given);
 	 	
+	 	sc.close();
+	 	
 	        // LOGIC for count of the element 	
 	 		int count = 0;
 	 		for(int i=0;i<a.length;i++)

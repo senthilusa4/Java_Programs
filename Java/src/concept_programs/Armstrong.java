@@ -15,6 +15,8 @@ public class Armstrong {
 		System.out.print("Enter a number - ");
 		int num = sc.nextInt();
 		
+		sc.close();
+		
 		obj.number(num);
 		          
 	}

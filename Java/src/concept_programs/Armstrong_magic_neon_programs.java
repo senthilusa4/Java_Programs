@@ -12,6 +12,8 @@ public class Armstrong_magic_neon_programs {
 			  System.out.println("This is for checking Given numner is ARMSTRONG OR NOT");
 			  System.out.println("Enter a number - ");
 			  int num = sc.nextInt();
+			  
+			//  sc.close();
    
 			  obj.arm_strong_num(num);
 		/////////////////////////////////////////////////
@@ -20,6 +22,8 @@ public class Armstrong_magic_neon_programs {
 			  System.out.println("This is for checking Given numner is NEON OR NOT");
 			  System.out.println("Enter a number - ");
 			  int num1 = sc1.nextInt();
+			  
+			  //sc1.close();
 		       
 			  obj.neon_num(num1);
 		/////////////////////////////////////////////////
@@ -28,6 +32,8 @@ public class Armstrong_magic_neon_programs {
 			  System.out.println("This is for checking Given numner is MAGIC OR NOT");
 			  System.out.println("Enter a number - ");
 			  int n = sc2.nextInt();
+			  
+			 // sc2.close();
 		                  
 			  obj.magic_num(n);
 		    } 

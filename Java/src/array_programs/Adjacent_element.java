@@ -15,6 +15,8 @@ public class Adjacent_element{
 		System.out.println("Enter element");
 		int n = sc.nextInt();
 		
+		sc.close();
+		
 		boolean flag = false;
 		for(int i=0;i<a.length;i++)
 		{
