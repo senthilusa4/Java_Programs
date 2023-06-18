@@ -1,10 +1,10 @@
 package string_programs;
 
-public class Sort_nexographybased {
+public class Sort_lexicographybased {
 	
 	public static void main(String[] args) {
 		
-		Sort_nexographybased obj = new Sort_nexographybased();
+		Sort_lexicographybased obj = new Sort_lexicographybased();
 		                     obj.sort();
 	}
 	
