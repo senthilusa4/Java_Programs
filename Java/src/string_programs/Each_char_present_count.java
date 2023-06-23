@@ -14,7 +14,7 @@ public class Each_char_present_count {
 	// This method is for find the duplicate presence's count
 	//		## checking index to another index if equal came means count++ otherwise nothing
 	//      ## if once check the index & equal came means || change some value to that index
-	//                                                       BECAUSE THEN ONLY SHOULD AVOID THE AGAINCOUNTING(THAT INDEX COUNT)
+	//         BECAUSE THEN ONLY SHOULD AVOID THE AGAINCOUNTING(THAT INDEX COUNT)
 	
 	public int duplicate_present()
 	{

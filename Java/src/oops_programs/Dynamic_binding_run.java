@@ -6,6 +6,8 @@ public class Dynamic_binding_run extends Dynamic_binding {
 	 *  Dynamic binding 
 	 *  ONLY Child class overriding the parent class happens 
 	 *  
+	 *    ### Parent class method will overriding child class method (In-Parent method only execute) 
+	 *  
 	 *  Parent class all methods came in to the child class
 	 *  which methods are HAVING in the child class that can override
 	 *  which methods are NOT HAVING in the child class it fetch the parent class method 

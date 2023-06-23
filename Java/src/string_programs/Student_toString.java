@@ -1,5 +1,7 @@
 package string_programs;
 
+import java.util.Objects;
+
 public class Student_toString {
 	
 	private String name;
@@ -63,16 +65,54 @@ public class Student_toString {
 										+ aadhar_no + "]";
 							}
 							
-	
+		
+
+							@Override
+							public boolean equals(Object obj) {
+								
+								Student_toString o = (Student_toString)obj;
+								
+								if (this.get_aadhar_no() ==  o.get_aadhar_no())
+									return true;
+								if (obj == null)
+									return false;
+								if (getClass() != obj.getClass())
+									return false;
+								Student_toString other = (Student_toString) obj;
+								return aadhar_no == other.aadhar_no;
+							}
+							
+
+							
+		// Given 3 Details_of_object any duplicate came means 
+		// In output can't shown without duplicate object(Based on Aadhar_detail)
 		public static void main(String[] args) 
 		{
 			Student_toString dolu = new Student_toString("dolu",480);
 			Student_toString bolu = new Student_toString("bolu",470,732101253695l);
+			Student_toString bheem = new Student_toString("bheem",470,732101253695l);
 			dolu.set_aadhar_no(737010140800l);
-			System.out.println(bolu.toString());
-		    System.out.println(dolu.toString());
 			
-		}					
+		//	System.out.println(bolu);
+		    System.out.println(dolu.toString());
+		    System.out.println(bolu.toString());
+			System.out.println(bheem.toString());
+			
+			
+			System.out.println("After remove duplicate  :");
+			
+			System.out.println(dolu);
+			if(false == dolu.equals(bheem)&&false == bolu.equals(bheem))
+			{
+				System.out.println(bheem);
+			}
+			
+			if(false == bolu.equals(dolu))
+			{
+				System.out.println(bolu);
+			}
+			
+		}				
 						
 		
 	
