@@ -3,6 +3,15 @@ package string_programs;
 import java.util.Objects;
 import java.util.Scanner;
 
+
+/*
+ *  In OBJECT_ARRAY NON-DUPLICATE OBJECT SHOULD CAN ONLY OCCUPY AN ARRAY OTHERWISE  ||DO NOT OCCUPY||
+ * 
+ * 		In runtime gave the user detail's based on the constructor
+ *      Then that details all are store in one object
+ *      When ever non duplicate object came || Now-only to store a object in array
+ */
+
 public class Object1 {
 	
 	private String name;
@@ -104,23 +113,23 @@ public class Object1 {
 					
 					System.out.print("Enter UserName : ");
 					String name = sc.next();
-					System.out.println();
+				//	System.out.println();
 					
 						System.out.print("Enter Your SSLC_mark : ");
 						int sslc_mark = sc.nextInt();
-						System.out.println();
+				//		System.out.println();
 						
 							System.out.print("Enter Your HSC_mark : ");
 							int hsc_mark = sc.nextInt();
-							System.out.println();
+				//			System.out.println();
 							
 								System.out.print("Enter Your degree : ");
 								String degree = sc.next();
-								System.out.println();
+				//				System.out.println();
 								
 									System.out.print("Enter Your DEGREE CGPA");
 									double degree_cgpa = sc.nextDouble();
-									System.out.println();
+				//					System.out.println();
 									
 					Object1 obj = new Object1(name,sslc_mark,hsc_mark,degree,degree_cgpa);
 					
@@ -149,4 +158,10 @@ public class Object1 {
 		
    }															
 	
+
+
+
+
+
+
 

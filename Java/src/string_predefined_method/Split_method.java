@@ -29,6 +29,8 @@ public class Split_method {
 		System.out.println("Enter the String");
 		String s = sc.nextLine();
 		
+		sc.close();
+		
 		int count = 0;
 		for(int i=0;i<s.length();i++)
 		{
