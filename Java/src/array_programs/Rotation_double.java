@@ -1,7 +1,5 @@
 package array_programs;
 
-import java.util.Scanner;
-
 public class Rotation_double {
 	
 	public static void main(String args[])

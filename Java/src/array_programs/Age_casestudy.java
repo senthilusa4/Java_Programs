@@ -6,8 +6,8 @@ public class Age_casestudy {
 	
 	public static void main(String args[])
 	{
-		Age_casestudy obj = new Age_casestudy();
-		              obj.age();
+		//Age_casestudy obj = new Age_casestudy();
+		              age();
 	}
 
 	

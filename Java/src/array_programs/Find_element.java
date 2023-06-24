@@ -63,7 +63,7 @@ public class Find_element {
 		{
 			System.out.println(given + " is NOT PRESENT in the array");
 		}
-		
+	sc.close();
 	}
 
 }

@@ -1,7 +1,5 @@
 package string_programs;
 
-import java.util.Objects;
-
 public class Student_toString {
 	
 	private String name;

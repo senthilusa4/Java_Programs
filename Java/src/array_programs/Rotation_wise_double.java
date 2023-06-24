@@ -5,7 +5,7 @@ public class Rotation_wise_double {
 	public static void main(String args[])
 	{
 		Rotation_wise_double obj = new Rotation_wise_double();
-		int result[] = obj.rotation_double();
+	                         obj.rotation_double();
 	}
 	
 	    /*
@@ -19,7 +19,7 @@ public class Rotation_wise_double {
 		public int[] rotation_double()
 		{ 
 			int a[] = {1,2,3,4};
-			int b[] = a;
+		//  int b[] = a;  backup array
 			
 			int temp = a[a.length-1];
 			for(int i=a.length-1;i>0;i--)
@@ -43,7 +43,7 @@ public class Rotation_wise_double {
 			}
 			a[0]=temp1;
 			
-					// Display the array after single rotation
+					// Display the array after double rotation
 					System.out.println("After the double rotation ");
 					for(int i=0;i<a.length;i++)
 					{

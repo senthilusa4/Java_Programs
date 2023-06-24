@@ -95,7 +95,7 @@ public class Jagged_array {
 								}
 								System.out.println();
 							}
-		
+		sc.close();
 		}
 
 }

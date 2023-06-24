@@ -52,6 +52,7 @@ public class Runtime_String_array_dup_cant_store {
 		{
 			System.out.println(a[i]);
 		}
+	sc.close();	
 	}
 
 }

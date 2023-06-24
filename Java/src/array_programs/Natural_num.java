@@ -32,6 +32,7 @@ public class Natural_num {
 				{
 					System.out.println(a[i]);
 				}
+		sc.close();		
 		}
 
 }

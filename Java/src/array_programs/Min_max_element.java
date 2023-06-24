@@ -2,8 +2,6 @@ package array_programs;
 
 import java .util.Scanner;
 
-import java.util.Scanner;
-
 public class Min_max_element {
 	
 	public static void main(String args[])
@@ -40,6 +38,8 @@ public class Min_max_element {
 			{
 				System.out.println(a[i]);
 			}
+			
+			sc.close();
 			
 			return a;
 	}

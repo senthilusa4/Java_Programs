@@ -63,7 +63,7 @@ public class Sum_index_consecutive_index {
 								int count=0;
 								for(int i=0;i<b.length-1;i++)
 								{
-									for(int j=i+1;j<b.length;j++)
+									for(int j=i+1;j<b.length;)
 									{
 										int value = b[i]+b[j];
 										if(value==n)
@@ -79,6 +79,7 @@ public class Sum_index_consecutive_index {
 									{
 										System.out.println("NO Sum-of-consecutive_index value present");
 									}
+									sc.close();
 							}
 
 }

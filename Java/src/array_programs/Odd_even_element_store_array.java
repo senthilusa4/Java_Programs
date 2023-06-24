@@ -19,7 +19,7 @@ public class Odd_even_element_store_array {
 	public void split_array_odd_even_elementwise()
 	{
 		int b[] = Static.a;
-		int bk[] = b;
+		//int bk[] = b;   backup array
 		
 		int odd_count = 0;
 		int even_count = 0;
@@ -88,7 +88,7 @@ public class Odd_even_element_store_array {
 	public void another_way()
 	{
 		int b[] = Static.a;
-		int bk[] = b;
+	//	int bk[] = b;  backup array
 		
 		int odd_count = 0;
 		int even_count = 0;

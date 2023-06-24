@@ -26,7 +26,7 @@ public class Remove_element {
 		//System.out.println("Enter the add element value ");
 		//int given = sc.nextInt();
 		
-		System.out.println("Please enter which index place will to be occupy");
+		System.out.println("Please enter which index place will to be remove");
 		int index = sc.nextInt();
 		
 		int b[] = Static.a;
@@ -49,8 +49,8 @@ public class Remove_element {
 				{
 					System.out.print(c[i]+ " ");
 				}
-
-		
+				
+	sc.close();	
 	}
 
 }

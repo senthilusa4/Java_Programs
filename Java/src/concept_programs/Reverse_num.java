@@ -15,6 +15,8 @@ public class Reverse_num {
 		
 		Reverse_num obj = new Reverse_num();
 		            obj.reverse(actual_num);
+		            
+		scanner.close();            
 		
 /*	                 obj.reverse(6543);
 	                 obj.reverse(6);

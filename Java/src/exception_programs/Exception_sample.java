@@ -53,7 +53,7 @@ public class Exception_sample{
 			System.out.println("Divide " + d);
 			
 			int e[] = null;
-			System.out.println(e[4]);
+			System.out.println(e[4]);   
 			
 			System.out.println("Thanks");	
 		}
@@ -68,7 +68,7 @@ public class Exception_sample{
 		
 					catch(ArrayIndexOutOfBoundsException e ) 
 		            {
-						System.out.println("Enter Index value not in array");
+						System.out.println("Entered Index value not in array");
 		            }
 		
 						catch(NullPointerException e )
@@ -86,6 +86,8 @@ public class Exception_sample{
 		{
 			System.out.println("Welcome"); 
 		}
+		
+	sc.close();	
 	}
 
 }

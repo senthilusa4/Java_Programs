@@ -51,7 +51,8 @@ public class Transpose_array {
 						System.out.print(a[i][j] + " ");
 					}
 					System.out.println();
-				}		
+				}
+				sc.close();
 		return a;	
 		}
 					// This method is for 

@@ -50,7 +50,7 @@ public class Find_element_index {
 			 				System.out.println(search_num + " Not present in the array");
 			 			}
 			 			
-			 						
+		sc.close();	 						
 		}
 }
 

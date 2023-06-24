@@ -36,6 +36,8 @@ public class Row_col_length {
 			System.out.println();
 		}
 		
+		sc.close();
+		
 				// Display the 2D array
 				for(int i=0;i<a.length;i++)
 				{

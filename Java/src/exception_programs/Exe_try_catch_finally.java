@@ -59,6 +59,8 @@ public class Exe_try_catch_finally {
 				System.out.println("Exception" + e.getMessage());
 			}
 			
+			sc.close();
+			
 		}
 		
 			public void add()

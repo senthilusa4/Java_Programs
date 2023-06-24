@@ -25,6 +25,7 @@ public class Tables {
 					int a = i*n;
 					System.out.println(i + "x" + n + "=" + a);
 				}
+				sc.close();
 		}
 }
 

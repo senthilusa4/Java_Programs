@@ -44,5 +44,6 @@ public class Within_range_elements {
 				}
 			}
 		}
+		sc.close();
 	}
 }

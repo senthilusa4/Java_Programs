@@ -43,7 +43,7 @@ public class SumOf_element_gap {
 					} 
 					System.out.println(ans);
 				}
-				
+		sc.close();		
 	}
 
 }

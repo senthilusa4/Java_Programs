@@ -12,6 +12,8 @@ public class Rev_num_range {
 		  int n = sc.nextInt();
 		  
 		  obj.number(n);
+		  
+		  sc.close();
 	}
 	
 	    // This method is for REVERSE GIVEN NUMBER
@@ -20,7 +22,9 @@ public class Rev_num_range {
 		{
 			int num = n;
 			int rev = 0;
+		
 			
+		if(n>9) {	
 		if((n>9)||(n<9))
 		{
 			if(n>9)
@@ -46,7 +50,8 @@ public class Rev_num_range {
 						
 						System.out.println(num + " Reverse is " + rev1);
 					}
-		}			
+		}
+		}
 		else
 		{
 			System.out.println("Please enter two digit number");
