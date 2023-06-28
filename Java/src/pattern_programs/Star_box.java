@@ -2,6 +2,14 @@ package pattern_programs;
 
 public class Star_box {
 	
+	/*
+	 		*****
+			*   *
+			*   *
+			*   *
+			*****
+	 */
+	
 	public static void main(String args[])
 	{
 	

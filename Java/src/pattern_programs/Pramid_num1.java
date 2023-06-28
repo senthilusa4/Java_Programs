@@ -21,7 +21,7 @@ public class Pramid_num1 {
 			{
 				System.out.print(" ");
 			}
-			    for(int k=i;k>=1;k--)
+			    for(int k=1;k<=i;k++)
 			    {
 			    	System.out.print(k);
 			    }

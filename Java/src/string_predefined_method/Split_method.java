@@ -17,7 +17,7 @@ public class Split_method {
 	 * 
 	 *   INPUT - String s = "apple is an fruit"
 	 *   
-	 *   EXPECTED - IN_ARRAY |index|   | 0 |    | 1 |  | 2 |   | 3 | 
+	 *   EXPECTED - IN_ARRAY |index|    | 0 |   | 1 |  | 2 |  | 3 | 
 	 *                                | apple |  is  |  an  | fruit |
 	 *                                
 	 *   Without using split method to solving the In given string converting to STRING_ARRAY                             
