@@ -11,7 +11,7 @@ public class Cricket extends Sports {
 		        obj.skill();     // child class method
 	}
 	
-	static public void run()
+	public void run()
 	{
 		System.out.println("In cricket run means SCORE  -- Child class");
 	}

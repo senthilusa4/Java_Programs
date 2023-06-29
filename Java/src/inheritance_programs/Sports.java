@@ -7,12 +7,12 @@ public class Sports {
 		System.out.println("Every sportsman must need stamina -- Parent class");
 	}
 	
-		static public void run()
+		public void run()
 		{
 			System.out.println("Every sportsman will improve the running  -- Parent class");
 		}
 		
-			public void endurance()
+			protected void endurance()
 			{
 				System.out.println("Every sportsman will improve endurance -- Parent class");
 			}

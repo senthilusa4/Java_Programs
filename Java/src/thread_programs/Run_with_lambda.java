@@ -18,6 +18,8 @@ public class Run_with_lambda {
 			 * 	 Each thread will implement that run method so will create new class for that
 			 * 
 			 *                    So go for LAMBDA EXPRESSION 
+			 *                    
+			 *   LAMBDA - LAMBDA expression can implemented a function interface by defining anonymous functions                 
 			 * 	
 			 */
 
@@ -58,7 +60,6 @@ public class Run_with_lambda {
 			
 			t1.start();
 			t2.start();
-			
 		}
 
 	}
