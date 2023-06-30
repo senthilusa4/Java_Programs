@@ -3,16 +3,31 @@ package collection_programs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Array_list_sample{
-	
+@SuppressWarnings("serial")
+public class Array_list_sample extends ArrayList<Object>{
+
 	// List is an Parent class of ArrayList 
 	
 	public static void main(String args[])
 	{
-		List<Object> l = new ArrayList<Object>();
+		List<Object> l = new ArrayList<Object>();  // <generic>  Restrict for allow similar data's 
 		List<Object> i = new ArrayList<Object>();
 		
-		i.add(888);
+// ------------------------------------------------------------------------------------------------		
+		
+		Array_list_sample obj = new Array_list_sample();  // removeRange method is protected
+		obj.removeRange(0, 0);	                          // So, extends class only can access the method Otherwise CAN'T  
+		
+//-------------------------------------------------------------------------------------------------		
+		ArrayList<Integer> u = new ArrayList<Integer>();
+		u.add(8);
+		u.add(9);		// ArrayList class method so should create object for ArrayList Class
+		u.add(8);       // So only can access the respective method 
+		u.add(9);
+		u.trimToSize();  
+// ------------------------------------------------------------------------------------------------		
+		
+		i.add(888); // add specified element to list   RETURN_TYPE = BOOLEAN
 		
 		int a = 9;
 		Integer o = (Integer) a;
