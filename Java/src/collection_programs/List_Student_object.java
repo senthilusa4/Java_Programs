@@ -192,9 +192,9 @@ public class List_Student_object {
 							    break;	
 	     				   }
 					
-							default : {
-								System.out.println("Please enter valid sort");
-					          }
+						   default : {
+							         System.out.println("Please enter valid sort");
+					                 }
 			
                        }
 					
