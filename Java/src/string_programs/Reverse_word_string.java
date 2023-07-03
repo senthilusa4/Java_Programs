@@ -7,8 +7,9 @@ public class Reverse_word_string {
 	public static void main(String args[])
 	{
 		Reverse_word_string obj = new Reverse_word_string();
-		                    String s = obj.trim();
-		                    obj.string_word_reverse(s);
+		                 //   String s = obj.trim();
+		                 //   obj.string_word_reverse(s);
+		                    obj.trim2();
 	}
 	
 	// Trim method || remove the front and tail space's
@@ -39,6 +40,52 @@ public class Reverse_word_string {
 		sc.close();
 		
 		return s;
+	}
+	
+	
+	public void trim2()
+	{
+		String s = "";
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string");
+		String a = sc.nextLine();
+		
+		boolean f = false;
+		for(int i=a.length()-1;i>=0;i--)
+		{
+			if((a.charAt(i)!=' ') && (f==false))
+			{
+				s = s + a.charAt(i);
+				f = true;
+			}
+			
+			else if(f==true)
+			{
+				s = s + a.charAt(i);
+			}
+		}
+		
+		System.out.println(s);
+		
+		String h = "";
+		
+		boolean flag = false;
+		for(int i=s.length()-1;i>=0;i--)
+		{
+			if((s.charAt(i)!=' ') && (flag==false))
+			{
+				h = h + a.charAt(i);
+				flag = true;
+			}
+			
+			else if(flag==true)
+			{
+				h = h + s.charAt(i);
+			}
+		}
+		
+		System.out.println(h);
 	}
 	
 //	----------------------------------------------------------------------------------------------
