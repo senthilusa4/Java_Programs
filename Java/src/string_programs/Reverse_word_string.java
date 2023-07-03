@@ -7,43 +7,22 @@ public class Reverse_word_string {
 	public static void main(String args[])
 	{
 		Reverse_word_string obj = new Reverse_word_string();
-		                 //   String s = obj.trim();
-		                 //   obj.string_word_reverse(s);
-		                    obj.trim2();
+		                      String s = obj.trim();
+		                      obj.string_word_reverse(s);
+		                    
 	}
 	
 	// Trim method || remove the front and tail space's
 	
+	// Given string change to word_wise reverse String 
+	
+	/*
+	 * 		Trim method
+	 * 
+	 * 		INPUT  = __This is my phone number__
+	 * 		OUTPUT = This is my phone number
+	 */
 	public String trim()
-	{
-		String s = "";
-		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter string");
-		String a = sc.nextLine();
-		
-		boolean f = false;
-		for(int i=0;i<a.length();i++)
-		{
-			if((a.charAt(i)!=' ') && (f==false))
-			{
-				s = s + a.charAt(i);
-				f = true;
-			}
-			
-			else if(f==true)
-			{
-				s = s + a.charAt(i);
-			}
-		}
-		
-		sc.close();
-		
-		return s;
-	}
-	
-	
-	public void trim2()
 	{
 		String s = "";
 		
@@ -68,28 +47,35 @@ public class Reverse_word_string {
 		
 		System.out.println(s);
 		
-		String h = "";
 		
-		boolean flag = false;
-		for(int i=s.length()-1;i>=0;i--)
-		{
-			if((s.charAt(i)!=' ') && (flag==false))
-			{
-				h = h + a.charAt(i);
-				flag = true;
-			}
-			
-			else if(flag==true)
-			{
-				h = h + s.charAt(i);
-			}
-		}
-		
-		System.out.println(h);
+				String h = "";
+				
+				boolean flag = false;
+				for(int i=s.length()-1;i>=0;i--)
+				{
+					if((s.charAt(i)!=' ') && (flag==false))
+					{
+						h = h + s.charAt(i);
+						flag = true;
+					}
+					
+					else if(flag==true)
+					{
+						h = h + s.charAt(i);
+					}
+				}
+				
+				System.out.println(h);
+				
+		sc.close();
+		return h;	
 	}
 	
 //	----------------------------------------------------------------------------------------------
 	
+	
+			// Input  = __This is my new one__
+			// Output =   one new my is This  
 			public void string_word_reverse(String s)
 			{
 				int count = 0;
@@ -119,11 +105,9 @@ public class Reverse_word_string {
 					}
 				}
 				
-				// Display array
-				for(String p : ss)
-				{
-					System.out.println(p);
-				}
+				/*
+				 * // Display array for(String p : ss) { System.out.println(p); }
+				 */
 				
 						System.out.println("------------------------");
 						System.out.println("Reverse word string ");
