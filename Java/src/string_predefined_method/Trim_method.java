@@ -12,6 +12,13 @@ public class Trim_method {
 		       System.out.println(s);
 	}
 	
+	/*
+	 * 		Trim method
+	 * 
+	 * 		INPUT  = __This is my phone number__
+	 * 		OUTPUT = This is my phone number
+	 */
+	
 	public String trim()
 	{
 		String s = "";
@@ -36,8 +43,7 @@ public class Trim_method {
 		}
 		
 	//	System.out.println(s);
-		
-		
+
 				String h = "";
 				
 				boolean flag = false;

@@ -209,24 +209,3 @@ public class List_Student_object {
 			}
 							
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -89,7 +89,7 @@ public class Shoes  {
 		}
 
 		
-		@SuppressWarnings("unchecked")
+	//	@SuppressWarnings("unchecked")
 		public static void main(String[] args)
 		{
 			Shoes s1 = new Shoes("SG","WHITE",2023,10000.50,25.00);
@@ -115,11 +115,17 @@ public class Shoes  {
 			System.out.println("--4-- Price_Amount based SORT");
 			System.out.println("--5-- Offer based SORT");		
 			
+			Comparator<Object> c = null;
+			
+			boolean f = true;
+			while(f) // This while is for || if user put wrong means  
+			{		//					  || indicate user (Giving input wrong  something)	
+				    //                    || And goe's(comparator) and ask again for (which sort)
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter which based sort Do you want : ");
 			int n = sc.nextInt();
 			
-			sc.close();
+			
 			
 			/*
 			 * 		In Arrays.sort(array,comparator) parameter Should pass
@@ -128,40 +134,46 @@ public class Shoes  {
 			 *        
 			 *         So only we create comparator data-type. 
 			 */
-			Comparator<Object> c = null;
 			
 					switch(n)
 					{
 						case 1: {
 									c = new BrandName_sort();
+									f = false;
 									break;
 						        }
 						
 						case 2: {
 							        c = new Color_sort();
+							        f = false;
 							        break;
 				                }
 				
 						case 3: {
 									c = new ArraivalYear_sort();
+									f = false;
 									break;
 				                }
 				
 						case 4: {
 									c = new Price_sort();
+									f = false;
 									break;
 		                		}
 						
 						case 5: {
 									c = new Offer_sort();
+									f = false;
 									break;
 		                		}
 						
 					    default : {
 									System.out.println("Please enter valid sort");
+									break;
 						          }
 					}
-			
+				
+			}		    
 			// Comparator based Sorting (Why|Because) In-time we can decide which sorting based output we want
 			Arrays.sort(ss, c);  // Comparator(array,Comparator)
 			
