@@ -23,7 +23,7 @@ public class Sort_lexicographybased {
 				{
 					for(int j=i+1;j<a.length;j++)
 					{
-						if(a[i].compareTo(a[j])>0)
+						if(a[i].compareTo(a[j])<0)
 						{
 							String temp = a[i];
 							a[i] = a[j];

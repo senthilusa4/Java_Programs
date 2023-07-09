@@ -133,7 +133,8 @@ public class Object1 {
 									
 					Object1 obj = new Object1(name,sslc_mark,hsc_mark,degree,degree_cgpa);
 					
-						boolean f = false;
+					
+					boolean f = false;
 						for(int j=0;j<n;j++)
 						{
 							if(obj.equals(o[j]))

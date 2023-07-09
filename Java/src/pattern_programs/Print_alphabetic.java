@@ -7,6 +7,7 @@ public class Print_alphabetic {
 		Print_alphabetic obj = new Print_alphabetic();
 		                 obj.number();
 		                 obj.pattern();
+		                 obj.pat();
 	}
 	
 	public void number()
@@ -60,6 +61,28 @@ public class Print_alphabetic {
 						}
 
 					}
+							
+							/*
+							 *   a b c d
+							 *   a b c d
+							 *   a b c d
+							 *   a b c d
+							 */
+					
+							public void pat()
+							{
+								int n = 4;
+								for(int i=1;i<=n;i++)
+								{
+									char v = 'a';
+									for(int j=1;j<=n;j++)
+									{
+										System.out.print(v + " ");
+										v++;
+									}
+									System.out.println();
+								}
+							}
 
 					
 }

@@ -104,6 +104,7 @@ public class Sample {
 		System.out.println();
 		System.out.println("--valueOf()");
 		System.out.println(s1.valueOf(b));
+		System.out.println(b);
 		
 		
 		System.out.println();

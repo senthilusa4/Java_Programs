@@ -1,7 +1,6 @@
 package collection_programs;
 
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Collections;import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -119,12 +118,12 @@ public class List_Student_object {
 							
 									if(ss1.getStu_roll_no()>ss2.getStu_roll_no())
 									{
-										return -1;
+										return 1;
 									}
 									
 									else if(ss1.getStu_roll_no()<ss2.getStu_roll_no())
 									{
-										return 1;
+										return -1;
 									}
 									else
 									{
