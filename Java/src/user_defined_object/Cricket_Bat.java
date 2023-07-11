@@ -1,13 +1,6 @@
 package user_defined_object;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.ListIterator;
 import java.util.Objects;
-import java.util.Scanner;
-import java.util.Set;
 
 public class Cricket_Bat {
 	// Instance variable
@@ -101,6 +94,9 @@ public class Cricket_Bat {
 					&& Double.doubleToLongBits(Rate) == Double.doubleToLongBits(other.Rate)
 					&& Objects.equals(Willow_name, other.Willow_name)*/;
 		}
+		
+		
+		
 		
 // ##########################################################################################################
 	

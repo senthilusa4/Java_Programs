@@ -8,35 +8,35 @@ import java.util.ListIterator;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Run_Cricket_Bat {
+public class Run_Cricket_Bat{
 
 public static List<Cricket_Bat> sort1() {
 		
-		Cricket_Bat s1 = new Cricket_Bat("SG", "Kashmir-Willow", "Profile Xtreme", 1101, 15999.99);
-		Cricket_Bat s2 = new Cricket_Bat("SG", "Kashmir-Willow", "Profile Xtreme", 1201, 10999.99);
-		Cricket_Bat s3 = new Cricket_Bat("SG", "Kashmir-Willow", "RSD Xtreme", 1102, 29999.99);
-		Cricket_Bat s4 = new Cricket_Bat("SG", "English-Willow", "RSD Xtreme", 1103, 49999.99);
-		Cricket_Bat s5 = new Cricket_Bat("SG", "Kashmir-Willow", "RSD Xtreme", 1104, 39999.99);
-		Cricket_Bat s6 = new Cricket_Bat("SG", "English-Willow", "Profile Xtreme", 1105, 19999.99);
-		Cricket_Bat s7 = new Cricket_Bat("SG", "English-Willow", "Profile Xtreme", 1106, 11999.99);
-		Cricket_Bat s8 = new Cricket_Bat("SG", "English-Willow", "Profile Xtreme", 1107, 21000.99);
+		Cricket_Bat s1 = new Cricket_Bat("SG", "KASHMIR WILLOW", "GENIUS PLAYER SP", 1101, 15999.99);
+		Cricket_Bat s2 = new Cricket_Bat("SG", "KASHMIR WILLOW", "GENIUS LIMITED ET", 1201, 10999.99);
+		Cricket_Bat s3 = new Cricket_Bat("SG", "KASHMIR WILLOW", "GENIUS PLAYER SP", 1102, 29999.99);
+		Cricket_Bat s4 = new Cricket_Bat("SG", "ENGLISH WILLOW", "GENIUS PLAYER SP", 1103, 49999.99);
+		Cricket_Bat s5 = new Cricket_Bat("SG", "KASHMIR WILLOW", "GENIUS PLAYER SP", 1104, 39999.99);
+		Cricket_Bat s6 = new Cricket_Bat("SG", "ENGLISH WILLOW", "GENIUS LIMITED ET", 1105, 19999.99);
+		Cricket_Bat s7 = new Cricket_Bat("SG", "ENGLISH WILLOW", "GENIUS LIMITED ET", 1106, 11999.99);
+		Cricket_Bat s8 = new Cricket_Bat("SG", "ENGLISH WILLOW", "GENIUS LIMITED ET", 1107, 21000.99);
 
-		Cricket_Bat m1 = new Cricket_Bat("MRF", "English-Willow", "Genius Player SP", 3101, 29999.99);
-		Cricket_Bat m2 = new Cricket_Bat("MRF", "Kashmir-Willow", "Genius Limited ET", 3102, 19999.99);
-		Cricket_Bat m3 = new Cricket_Bat("MRF", "English-Willow", "Genius Player Sp", 3001, 45999.00);
-		Cricket_Bat m4 = new Cricket_Bat("MRF", "Kashmir-Willow", "Genius Player SP", 3101, 29999.99);
-		Cricket_Bat m5 = new Cricket_Bat("MRF", "English-Willow", "Genius Player SP", 3103, 29999.99);
-		Cricket_Bat m6 = new Cricket_Bat("MRF", "Kashmir-Willow", "Genius Limited ET", 3105, 19999.99);
-		Cricket_Bat m7 = new Cricket_Bat("MRF", "English-Willow", "Genius Player Sp", 3002, 45999.00);
-		Cricket_Bat m8 = new Cricket_Bat("MRF", "Kashmir-Willow", "Genius Player SP", 3109, 29999.99);
+		Cricket_Bat m1 = new Cricket_Bat("MRF", "ENGLISH WILLOW", "GENIUS PLAYER SP", 3101, 29999.99);
+		Cricket_Bat m2 = new Cricket_Bat("MRF", "KASHMIR WILLOW", "GENIUS LIMITED ET", 3102, 19999.99);
+		Cricket_Bat m3 = new Cricket_Bat("MRF", "ENGLISH WILLOW", "GENIUS LIMITED ET", 3001, 45999.00);
+		Cricket_Bat m4 = new Cricket_Bat("MRF", "KASHMIR WILLOW", "GENIUS PLAYER SP", 3101, 29999.99);
+		Cricket_Bat m5 = new Cricket_Bat("MRF", "ENGLISH WILLOW", "GENIUS PLAYER SP", 3103, 29999.99);
+		Cricket_Bat m6 = new Cricket_Bat("MRF", "KASHMIR WILLOW", "GENIUS LIMITED ET", 3105, 19999.99);
+		Cricket_Bat m7 = new Cricket_Bat("MRF", "ENGLISH WILLOW", "GENIUS PLAYER SP", 3002, 45999.00);
+		Cricket_Bat m8 = new Cricket_Bat("MRF", "KASHMIR WILLOW", "GENIUS LIMITED ET", 3109, 29999.99);
 
 		
-		Cricket_Bat n1 = new Cricket_Bat("NB", "English-Willow", "Tc Player SP", 4101, 29999.99);
-		Cricket_Bat n2 = new Cricket_Bat("NB", "Kashmir-Willow", "Tc Player SP", 4102, 29999.99);
-		Cricket_Bat n3 = new Cricket_Bat("NB", "Kashmir-Willow", "Dc Player Sp", 4203, 19999.99);
-		Cricket_Bat n4 = new Cricket_Bat("NB", "English-Willow", "Tc Player SP", 4103, 29999.99);
-		Cricket_Bat n5 = new Cricket_Bat("NB", "English-Willow", "Tc Player SP", 4101, 29999.99);
-		Cricket_Bat n6 = new Cricket_Bat("NB", "English-Willow", "Dc Player Sp", 4201, 19999.99);
+		Cricket_Bat n1 = new Cricket_Bat("NB", "ENGLISH WILLOW", "GENIUS PLAYER SP", 4101, 29999.99);
+		Cricket_Bat n2 = new Cricket_Bat("NB", "KASHMIR WILLOW", "GENIUS PLAYER SP", 4102, 39999.99);
+		Cricket_Bat n3 = new Cricket_Bat("NB", "KASHMIR WILLOW", "GENIUS LIMITED ET", 4203, 19999.99);
+		Cricket_Bat n4 = new Cricket_Bat("NB", "ENGLISH WILLOW", "GENIUS PLAYER SP", 4103, 49999.99);
+		Cricket_Bat n5 = new Cricket_Bat("NB", "ENGLISH WILLOW", "GENIUS PLAYER SP", 4101, 29999.99);
+		Cricket_Bat n6 = new Cricket_Bat("NB", "ENGLISH WILLOW", "GENIUS LIMITED ET", 4201, 19999.99);
 		
 		
 
@@ -100,7 +100,7 @@ public static List<Cricket_Bat> sort1() {
 							{
 								Cricket_Bat ss1 = (Cricket_Bat)o1;
 								Cricket_Bat ss2 = (Cricket_Bat)o2;
-									return ss1.getBrand_name().compareTo(ss2.getBrand_name());
+									return (ss1.getBrand_name().compareTo(ss2.getBrand_name()));
 							};
 							f = false;
 							break;
@@ -185,7 +185,7 @@ public static List<Cricket_Bat> sort1() {
 	     	}
 		
 	ll.sort(c);
-	System.out.println(ll);
+//	System.out.println(ll);
 	return ll;
 	
 	}
@@ -197,9 +197,9 @@ public static List<Cricket_Bat> sort1() {
 						Scanner sc = new Scanner(System.in);
 						System.out.println();
 						System.out.println("---------------------------------------");
-						System.out.println("--1-- MRF BAT based SORT");
-						System.out.println("--2-- SG BAT based SORT");
-						System.out.println("--3-- NB BAT based SORT");
+						System.out.println("---- MRF BAT AVAILABLE");
+						System.out.println("---- SG BAT AVAILABLE");
+						System.out.println("---- NB BAT AVAILABLE");
 						System.out.println("---------------------------------------");
 						System.out.println();
 						
@@ -209,62 +209,36 @@ public static List<Cricket_Bat> sort1() {
 								while(f) {
 								
 								System.out.println("Enter Which Brand_name bat do you want ?");
-								int n = sc.nextInt();
+								String n = sc.nextLine();
+								
+								String x = n.trim();
+								String q = x.toUpperCase();
 								
 								ListIterator<Cricket_Bat> itr = z.listIterator();
 								
-								switch(n)
-								{
-								
-								case 1: {
 											while(itr.hasNext())
 											{
 												Cricket_Bat c = itr.next();
-												if(c.getBrand_name().equals("MRF"))
+												if(c.getBrand_name().equals(q))
 												{
 													ll.add(c);
+													f=false;
 												}
 											}
-											f= false;
-											break;
-								        }
-								
-								case 2 : {
-											while(itr.hasNext())
+											
+											if(f==false)
 											{
-												Cricket_Bat c = itr.next();
-												if(c.getBrand_name().equals("SG"))
-												{
-													ll.add(c);
-												}
+												break;
 											}
-											f= false;
-											break;
-								         }
-								
-								
-								case 3: {
-											while(itr.hasNext())
+											else
 											{
-												Cricket_Bat c = itr.next();
-												if(c.getBrand_name().equals("NB"))
-												{
-													ll.add(c);
-												}
+												//f=true;
+												System.err.println("Searching brand NOT-AVAILABLE");
 											}
-											f= false;
-											break;
-							        	}
-								
-								default : {
-									System.err.println("Please check your given input");
-								}	
+									}	
+							return ll;		
 							}
-						}
-					System.out.println(ll);
-					return ll;
-					}
-					
+									
 					
 					
 					            public static List<Cricket_Bat> willow_name(List<Cricket_Bat> z)	
@@ -272,8 +246,8 @@ public static List<Cricket_Bat> sort1() {
 					            	Scanner sc = new Scanner(System.in);
 									System.out.println();
 									System.out.println("---------------------------------------");
-									System.out.println("--1-- ENGLISH WILLOW BAT based SORT");
-									System.out.println("--2-- KASHMIR WILLOW BAT based SORT");
+									System.out.println("---- ENGLISH WILLOW BAT AVAILABLE");
+									System.out.println("---- KASHMIR WILLOW BAT AVAILABLE");
 									System.out.println("---------------------------------------");
 									System.out.println();
 									
@@ -283,72 +257,113 @@ public static List<Cricket_Bat> sort1() {
 											while(f) {
 											
 											System.out.println("SELECT WHICH WILLOW DO YOU WANT?");
-											int n = sc.nextInt();
+											String n = sc.nextLine();
+											
+											String x = n.trim();
+											String q = x.toUpperCase();
+											
 											
 											ListIterator<Cricket_Bat> itr = z.listIterator();
 											
-											switch(n)
-											{
+												while(itr.hasNext())
+												{
+													Cricket_Bat c = itr.next();
+													if(c.getWillow_name().equals(q))
+													{
+														ll.add(c);
+														f=false;
+													}
+												}
+												
+												if(f==false)
+												{
+													break;
+												}
+												else
+												{
+													//f=true;
+													System.err.println("Searching WILLOW NOT-AVAILABLE");
+												}
+											}			
+						
+								return ll;		
+								}	
+					            
+					            
+					            public static List<Cricket_Bat> edition_name(List<Cricket_Bat> z)	
+								{	
+					            	Scanner sc = new Scanner(System.in);
+									System.out.println();
+									System.out.println("---------------------------------------");
+									System.out.println("---- GENIUS PLAYER SP BAT AVAILABLE");
+									System.out.println("---- GENIUS LIMITED ET BAT AVAILABLE");
+									System.out.println("---------------------------------------");
+									System.out.println();
+									
+									List<Cricket_Bat> ll = new ArrayList<Cricket_Bat>(); 
+									
+											boolean f = true;
+											while(f) {
 											
-											case 1: {
-														while(itr.hasNext())
+											System.out.println("SELECT WHICH EDITION BAT DO YOU WANT?");
+											String n = sc.nextLine();
+											
+											String x = n.trim();
+											String q = x.toUpperCase();
+											
+											
+											ListIterator<Cricket_Bat> itr = z.listIterator();
+											
+												while(itr.hasNext())
+												{
+													Cricket_Bat c = itr.next();
+													if(c.getEdition_name().equals(q))
+													{
+														ll.add(c);
+														f=false;
+													}
+												}
+												
+														if(f==false)
 														{
-															Cricket_Bat c = itr.next();
-															if(c.getWillow_name().equals("English-Willow"))
-															{
-																ll.add(c);
-															}
+															break;
 														}
-														f= false;
-														break;
-											        }
-											
-											case 2 : {
-														while(itr.hasNext())
+														else
 														{
-															Cricket_Bat c = itr.next();
-															if(c.getWillow_name().equals("Kashmir-Willow"))
-															{
-																ll.add(c);
-															}
+															//f=true;
+															System.err.println("Searching EDITION BAT NOT-AVAILABLE");
 														}
-														f= false;
-														break;
-											         }
-											default : {
-												System.err.println("Please check your given input");
-											}
-										}
-								    }
+											}	
 											
-									System.out.println(ll);
-									return ll;		
+								
+								return ll;		
 								}	
 					            
 					            
 					            
-					            public static void rate(List<Cricket_Bat> z)
+					            public static List<Cricket_Bat> rate(List<Cricket_Bat> z)
 								{
-											
+					            	
+					            	List<Cricket_Bat> ll = new ArrayList<Cricket_Bat>();
+								
+									/*
+									 * boolean outer = true; while(outer) {
+									 */	
 									Scanner sc = new Scanner(System.in);
 									System.out.println();
 									System.out.println("---------------------------------------");
-									System.out.println("--1-- Above the RATE based SORT");
-									System.out.println("--2-- Below the RATE based SORT");
-									System.out.println("--3-- Between the RATE based SORT");
+									System.out.println("--1-- Above the RANGE(RATE) based FILTER");
+									System.out.println("--2-- Below the RANGE(RATE) based FILTER");
+									System.out.println("--3-- Between the RANGE(RATE) based FILTER");
 									System.out.println("---------------------------------------");
-									System.out.println();
-									
-									
-									
-									List<Cricket_Bat> ll = new ArrayList<Cricket_Bat>(); 
+									System.out.println(); 
 									
 									ListIterator<Cricket_Bat> itr = z.listIterator();
 									
 											boolean f = true;
 											while(f) {
 											
-											System.out.println("SELECT ABOVE | BELOW | BETWEEN RANGE AMOUNT?");
+											System.out.println("SELECT WHICH FILTER DO YOU WANT?");
 											int n = sc.nextInt();
 											
 											if(n==1)
@@ -398,22 +413,39 @@ public static List<Cricket_Bat> sort1() {
 													}
 												}
 												f=false;
-										}
+										    }
+												
+										   }
 											
-									}
-										
-									
-									  if(true != ll.isEmpty())
-									  { 
-										  System.out.println(ll); 
-									  } 
-									  else
-									  {
-									      System.err.println("No such range of amount bat in a LIST");
-									      rate(z);
-									  }
-									 
+											  if(true != ll.isEmpty())
+											  
+												 //System.out.println(ll);
+												  return ll;
+											   
+											  else
+											  
+											      System.err.println("No such range of amount bat in a LIST");
+											   //   rate(z);
+											    return rate(z);
+									  
 								}
+					            
+					            
+					            public static void display(List<Cricket_Bat> ll)
+					            {
+					            	ListIterator<Cricket_Bat> itr = ll.listIterator();
+					            	
+					            	while(itr.hasNext())
+					            	{
+					            		Cricket_Bat o = itr.next();
+					            		
+					            		System.out.println( "ID : " + o.getBat_id() + " || " +
+					            		             "BRAND : " + o.getBrand_name() + " || " +	
+					            			       "WILLOW : " + o.getWillow_name() + " || " +
+					            		         "EDITION : " + o.getEdition_name() + " || " + 
+					            			                   "BEST_PRICE : " + o.getRate() );
+					            	}
+					            }
 								
 								
 											
@@ -421,10 +453,22 @@ public static List<Cricket_Bat> sort1() {
 	public static void main(String[] args)
 	{
 		List<Cricket_Bat> w = sort1();
+		display(w);
+		
 		List<Cricket_Bat> v = bat_name(w);
+		display(v);
+		
 		List<Cricket_Bat> x = willow_name(v);
-							  rate(x);						
+		display(x);
+		
+		List<Cricket_Bat> y = edition_name(x);
+		display(y);
+		
+		List<Cricket_Bat> z = rate(y);
+		display(z);
 	}
+
+
 
 
 }
