@@ -10,7 +10,7 @@ public class Dynamic_binding {
 		System.out.println("Parent-class hobby Reading Books");
 	}
 	
-		void dream()
+	    void dream()
 		{
 			System.out.println("Parent-class dream Become a GOVERNMENT employee");
 		}
