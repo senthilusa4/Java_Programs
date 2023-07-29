@@ -64,6 +64,7 @@ public static List<Cricket_Bat> sort1() {
 		l.add(n4);
 		l.add(n5);
 		l.add(n6);
+		l.add(new Cricket_Bat("NB", "ENGLISH WILLOW", "GENIUS LIMITED ET", 4209, 14999.99));
 
 
 		Set<Cricket_Bat> s = new LinkedHashSet<Cricket_Bat>(l);
