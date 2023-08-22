@@ -25,8 +25,8 @@ public class Binary_search {
 	{
 		Binary_search obj = new Binary_search();
 		int ascending[] = obj.ascending_order();
-		              //    obj.search(ascending);
-		               obj.search1(ascending);
+		                  obj.search(ascending);
+		              // obj.search1(ascending);
 	}
 	
 	public int[] ascending_order()
