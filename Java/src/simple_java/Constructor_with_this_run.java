@@ -7,7 +7,9 @@ public class Constructor_with_this_run {
 		Constructor_with_this virat = new Constructor_with_this();
 		virat.display();
 		Constructor_with_this virat1 = new Constructor_with_this(202);
-		virat1.display();                     
+		virat1.display(); 
+		Constructor_with_this virat2 = new Constructor_with_this(11220,5500);
+		virat2.display();
 	}
 	
 	
