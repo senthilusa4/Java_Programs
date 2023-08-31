@@ -87,7 +87,7 @@ public class Student_toString {
 		public static void main(String[] args) 
 		{
 			Student_toString dolu = new Student_toString("dolu",480);
-			Student_toString bolu = new Student_toString("bolu",470,732101253695l);
+			Student_toString bolu = new Student_toString("bolu",  470,732101253695l);
 			Student_toString bheem = new Student_toString("bheem",470,732101253695l);
 			dolu.set_aadhar_no(737010140800l);
 			
